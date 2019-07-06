@@ -11,12 +11,23 @@
     
     
     <item>
+      <title>Dom</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>is a Miami based web developer and designer.
+The things he has seen and felt in his young lifetime have shaped the way he captures the world. With this, he is able to bring a new age perspective to the crowds that identify with “Verde” the brand.
+His designs derive from a spirit of expression. He is methodical about the moods and aesthetic of his work. The presence of raw emotion and feeling is an objective for each piece.</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/</guid>
-      <description>.slider {padding-bottom: 70%;width: 100%;height: 0;position: relative;} .slider img {width: 100%;height: auto;position: absolute;opacity: 0;animation: slide infinite 24s;}@keyframes slide {0% { opacity: 0; }8.333333333333334% { opacity: 1; }25% { opacity: 1; }33.333333333333336% { opacity: 0; }}.slider img:nth-child(1){animation-delay:0s;}.slider img:nth-child(2){animation-delay:6s;}.slider img:nth-child(3){animation-delay:12s;}.slider img:nth-child(4){animation-delay:18s;} Portfolio Demo Coder Portfolio This theme is created based on hugo-coder.</description>
+      <description>.slider { padding-bottom: 70%; width: 100%; height: 0; position: relative; } .slider img { width: 100%; height: auto; position: absolute; opacity: 0; animation: slide infinite 30s; } @keyframes slide { 0% { opacity: 0; } 6.666666666666667% { opacity: 1; } 20% { opacity: 1; } 26.666666666666668% { opacity: 0; } } .slider img:nth-child(1){animation-delay:0s;} .slider img:nth-child(2){animation-delay:6s;} .slider img:nth-child(3){animation-delay:12s;} .slider img:nth-child(4){animation-delay:18s;} .slider img:nth-child(5){animation-delay:24s;}  Portfolio Demo  ## Coder Portfolio This theme is created based on hugo-coder.</description>
     </item>
     
   </channel>
