@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VΞЯDΞ</title>
+    <title>DOM NOЯTHΞCIDΞ</title>
     <link>/</link>
-    <description>Recent content on VΞЯDΞ</description>
+    <description>Recent content on DOM NOЯTHΞCIDΞ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -11,14 +11,31 @@
     
     
     <item>
+      <title></title>
+      <link>/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/</guid>
+      <description>React AppYou need to enable JavaScript to run this app.!function(f){function e(e){for(var t,r,n=e[0],o=e[1],u=e[2],a=0,l=[];a </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>  .content { max-width: 500px; margin: auto; }    Contact us (Coral Group MD)  First Name   Last Name    Title   Company    Email   Phone number    Message    Submit * We&#39;ll contact you by phone &amp; email later
+  	  			   </description>
+    </item>
+    
+    <item>
       <title>Dom</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>is a Miami based web developer and designer.
-The things he has seen and felt in his young lifetime have shaped the way he captures the world. With this, he is able to bring a new age perspective to the crowds that identify with “Verde” the brand.
-His designs derive from a spirit of expression. He is methodical about the moods and aesthetic of his work. The presence of raw emotion and feeling is an objective for each piece.</description>
+      <description>is a Miami based web developer and designer. The things he has seen and felt in his young lifetime have shaped the way he captures the world. With this, he is able to bring a new age perspective to the crowds that identify with “Verde” the brand. His designs derive from a spirit of expression. He is methodical about the moods and aesthetic of his work.</description>
     </item>
     
   </channel>

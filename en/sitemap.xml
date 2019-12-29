@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -14,6 +22,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
                 />
   </url>
   
@@ -33,21 +56,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
                 />
   </url>
   
