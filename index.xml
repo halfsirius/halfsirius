@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/store/</guid>
+      <description>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag(&#34;js&#34;,new Date),gtag(&#34;config&#34;,&#34;UA-85006284-3&#34;)React Shopping CartYou need to enable JavaScript to run this app.!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f </description>
+    </item>
+    
+    <item>
       <title>Dom</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
