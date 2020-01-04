@@ -18,7 +18,7 @@ $('button#submit-form').on('click', function(e) {
     dataType: "json",
     data: $form.serialize()
   }).success(
-    alert('Thank you for contacting us.\nYour request has been submitted.\nWe will contact your by phone or email shortly.') 
+    alert('Thank you for contacting us.\nYour request has been submitted.\nWe will contact you by phone or email shortly.') 
   );
 })
 
