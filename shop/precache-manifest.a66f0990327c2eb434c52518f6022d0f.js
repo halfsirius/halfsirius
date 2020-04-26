@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/shop/static/media/12064273040195392_1.2995d79a.jpg"
   },
   {
-    "revision": "3c4978642920fc996d58",
+    "revision": "5545d8d8de43264b2373",
     "url": "/shop/static/css/main.dead4997.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/shop/static/media/11854078013954528_1.7faf6a31.jpg"
   },
   {
-    "revision": "3c4978642920fc996d58",
-    "url": "/shop/static/js/main.3c497864.chunk.js"
+    "revision": "5545d8d8de43264b2373",
+    "url": "/shop/static/js/main.5545d8d8.chunk.js"
   },
   {
     "revision": "d78e27906d034c3b4cd53aa3526acda3",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/shop/static/media/100_2.9b698d6d.jpg"
   },
   {
-    "revision": "3e8fc4a1fa55b7e27e884d19705781fb",
+    "revision": "165b1325178a1450b6a373c50cfd8397",
     "url": "/shop/index.html"
   }
 ];
