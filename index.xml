@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Half Sirius</title>
+    <link>/</link>
+    <description>Recent content on Half Sirius</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>/posts/creating-a-new-blog/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/creating-a-new-blog/</guid>
+      <description> Day 1 ## this is a comment (base) Dominiques-MacBook-Pro:dominique$ print hello world hello world $</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Born in Providence, Rhode Island (U.S.A.) in 1996, Dominique Northecide is a full-stack developer and designer. After earning a BFA with a concentration in Graphic Design from Florida Atlantic University in Boca Raton, he obtained a master’s degree in UX/UI Design from the Rhode Island School of Design . It was at the RISD where Northecide was introduced to a curriculum established by Mies van der Rohe, formed from the notions of Bauhaus, that taught him to combine the fields of art, craft and design.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>  .content { max-width: 500px; margin: auto; }    Contact us   First Name   Last Name    Title   Company    Email   Phone number    Message    Submit * We will contact you by phone or email
+ 	  	  			   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/gallery/</guid>
+      <description>React AppYou need to enable JavaScript to run this app.!function(f){function e(e){for(var t,r,n=e[0],o=e[1],u=e[2],a=0,l=[];a </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/store/</guid>
+      <description>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag(&#34;js&#34;,new Date),gtag(&#34;config&#34;,&#34;UA-85006284-3&#34;)React Shopping CartYou need to enable JavaScript to run this app.!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/test/</guid>
+      <description>  </description>
+    </item>
+    
+  </channel>
+</rss>
