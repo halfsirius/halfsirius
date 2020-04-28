@@ -1,5 +1,5 @@
 var $form = $('form#contact-form'),
-    url = 'https://script.google.com/macros/s/AKfycbwSL9zKaz1C3efz2RoDEhsoQoXgtprxptiF9Ur2D8SDDJB1-TQ/exec'
+    url = 'https://script.google.com/macros/s/AKfycby1e-pHwkyJJi_GYYfeYgoWH2yogXkWspnkTpHG/exec'
 
     //console.log('UTL = [' + url +']');
 
