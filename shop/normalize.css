@@ -44,6 +44,24 @@ section,
 summary {
   display: block;
 }
+/* Navigation */
+
+nav {
+  clear: both;
+  font-size: 0.9em;
+  text-align: center;
+  background:transparent;
+  border-top:1px solid #E6E6E6;
+  border-bottom:1px solid #E6E6E6;}
+
+nav a {
+padding: 1em; 
+text-decoration: none; 
+min-width: 3em; 
+display: inline-block;
+}
+
+
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -132,8 +150,12 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+    color: @title-color;
+    border: none;
+    margin-bottom: 0.6em;
+    margin-top: 0;
+    font-size: 2.5em;
+    line-height: 1em;
 }
 
 /**
