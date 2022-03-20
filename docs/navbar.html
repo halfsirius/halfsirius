@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navbar - Half Sirius</title>
+  <meta name="description" content="">
+
+  <!-- Goole fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../assets/css/icons.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/img/icon.png" type="image/png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  
+  <!-- PrismJS theme -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-coy.min.css">
+  
+
+  <!-- JS -->
+  <script src="../assets/js/bootstrap.js" defer></script>
+<style>
+  img.sticky {
+  
+  position: sticky;
+  top: 0;
+}
+</style>
+</head>
+
+<body>
+  <header>
+  <a href="#main" class="visually-hidden-focusable">Skip to main content</a>
+
+
+
+
+  <nav class="navbar navbar-expand-md navbar-light py-3" aria-label="Main">
+    <div class="container">
+      <a href="../index.html" class="navbar-brand text-dark">
+        <img src="../assets/img/logo-boost.svg" alt="Boost Theme">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+
+      <!--
+      <div class="collapse navbar-collapse" id="navbar">
+        <div class="navbar-nav mt-3 mt-md-0 ms-auto">
+          <a class="nav-link px-md-3" href="../pages.html">Pages</a>
+          <a class="nav-link px-md-3" href="../style.html">Style</a>
+          <a class="nav-link px-md-3 active" href="../docs/intro.html">Docs</a>
+        </div>
+          <a class="btn btn-primary btn-sm rounded-pill mt-3 mt-md-0 ms-md-3" href="https://themes.getbootstrap.com/product/boost/">Buy now</a>
+      </div>
+
+      -->
+    </div>
+  </nav>
+
+
+  
+</header>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-9 col-xxl-8 order-lg-1">
+        <main id="main" class="mb-5">
+          <h1>Navbar</h1>
+<div class="divider"></div>
+<p class="lead">Create a responsive navigation bar.</p>
+
+<nav class="navbar navbar-expand-md navbar-light border py-3 mb-4" aria-label="Demo 1">
+  <div class="container">
+    <a href="#" class="navbar-brand text-uppercase">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-1" aria-controls="navbar-1" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars fa-lg"></i>
+    </button>
+    <div class="collapse navbar-collapse py-3 py-md-0" id="navbar-1">
+      <div class="navbar-nav ms-auto">
+        <div class="dropdown">
+          <a class="nav-link dropdown-toggle px-md-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services<i class="fas fa-angle-down ms-2" aria-hidden="true"></i></a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Service 1</a>
+            <a class="dropdown-item" href="#">Service 2</a>
+            <a class="dropdown-item" href="#">Service 3</a>
+          </div>
+        </div>
+        <a class="nav-link px-md-3" href="#">Pricing</a>
+        <a class="nav-link px-md-3" href="#">About</a>
+      </div>
+      <a class="btn btn-outline-primary btn-sm rounded-pill mt-3 mt-md-0 ms-md-3" href="#">Sign Up</a>
+    </div>
+  </div>
+</nav>
+
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>navbar navbar-expand-md navbar-light py-3<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Demo 1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>navbar-brand text-uppercase<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Logo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>navbar-toggler<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>collapse<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#navbar-1<span class="token punctuation">"</span></span> <span class="token attr-name">aria-controls</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>navbar-1<span class="token punctuation">"</span></span> <span class="token attr-name">aria-expanded</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Toggle navigation<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fas fa-bars fa-lg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>collapse navbar-collapse py-3 py-md-0<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>navbar-1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>navbar-nav ms-auto<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dropdown<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>nav-link dropdown-toggle px-md-3<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>navbarDropdown<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">data-bs-toggle</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dropdown<span class="token punctuation">"</span></span> <span class="token attr-name">aria-expanded</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Services<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fas fa-angle-down ms-2<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dropdown-menu<span class="token punctuation">"</span></span> <span class="token attr-name">aria-labelledby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>navbarDropdown<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dropdown-item<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Service 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dropdown-item<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Service 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dropdown-item<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Service 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>nav-link px-md-3<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Pricing<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>nav-link px-md-3<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>About<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn btn-outline-primary btn-sm rounded-pill mt-3 mt-md-0 ms-md-3<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Sign Up<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span></code></pre>
+
+<h2>Other navbars</h2>
+<nav class="navbar navbar-expand-md navbar-light border py-3 mb-4" aria-label="Demo 2">
+  <div class="container">
+    <a href="#" class="navbar-brand text-uppercase">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-2" aria-controls="navbar-2" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars fa-lg"></i>
+    </button>
+    <div class="collapse navbar-collapse py-3 py-md-0" id="navbar-2">
+      <div class="navbar-nav mx-auto">
+        <a class="nav-link px-md-3" href="#">Services</a>
+        <a class="nav-link px-md-3" href="#">Pricing</a>
+        <a class="nav-link px-md-3" href="#">About</a>
+      </div>
+      <a class="btn btn-outline-primary btn-sm rounded-pill mt-3 mt-md-0 ms-lg-3" href="#">Sign Up</a>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-md navbar-light border py-3 mb-4" aria-label="Demo 3">
+  <div class="container">
+    <a href="#" class="navbar-brand text-uppercase">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-3" aria-controls="navbar-3" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars fa-lg"></i>
+    </button>
+    <div class="collapse navbar-collapse py-3 py-md-0" id="navbar-3">
+      <div class="navbar-nav">
+        <a class="nav-link px-md-3" href="#">Services</a>
+        <a class="nav-link px-md-3" href="#">Pricing</a>
+        <a class="nav-link px-md-3" href="#">About</a>
+      </div>
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link px-lg-3" href="#">Log in</a>
+      </div>
+      <a class="btn btn-outline-primary btn-sm rounded-pill mt-3 mt-md-0 ms-lg-3" href="#">Sign Up</a>
+    </div>
+  </div>
+</nav>
+
+<p>
+  <a href="https://getbootstrap.com/docs/5.0/components/navbar/" target="_blank" rel="noopener">Bootstrap Documentation <i class="fas fa-external-link-alt fa-sm" aria-hidden="true"></i></a>
+</p>
+
+        </main>
+      </div>
+      <div class="col-lg-3">
+        <nav class="side-nav sticky-top mt-1" aria-label="Docs">
+          <dl>
+            <dt class="text-uppercase mb-2">Getting Started</dt>
+            <dd>
+              <a href="intro.html" >Introduction</a>
+            </dd>
+            <dd>
+              <a href="accessibility.html" >Accessibility</a>
+            </dd>
+            <dd>
+              <a href="changelog.html" >Changelog</a>
+            </dd>
+            <dd>
+              <a href="customization.html" >Customization</a>
+            </dd>
+            <dd>
+              <a href="updating.html" >Updating</a>
+            </dd>
+            <dt class="text-uppercase mt-4 mb-2">Components</dt>
+            <dd>
+              <a href="accordion.html" >Accordion</a>
+            </dd>
+            <dd>
+              <a href="alerts.html" >Alerts</a>
+            </dd>
+            <dd>
+              <a href="avatars.html" >Avatars</a>
+            </dd>
+            <dd>
+              <a href="backgrounds.html" >Backgrounds</a>
+            </dd>
+            <dd>
+              <a href="buttons.html" >Buttons</a>
+            </dd>
+            <dd>
+              <a href="cards.html" >Cards</a>
+            </dd>
+            <dd>
+              <a href="devices.html" >Devices</a>
+            </dd>
+            <dd>
+              <a href="dropdowns.html" >Dropdowns</a>
+            </dd>
+            <dd>
+              <a href="forms.html" >Forms</a>
+            </dd>
+            <dd>
+              <a href="icons.html" >Icons</a>
+            </dd>
+            <dd>
+              <a href="modal.html" >Modal</a>
+            </dd>
+            <dd>
+              <a href="navbar.html" class=active>Navbar</a>
+            </dd>
+            <dd>
+              <a href="pagination.html" >Pagination</a>
+            </dd>
+            <dd>
+              <a href="tables.html" >Tables</a>
+            </dd>
+          </dl>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

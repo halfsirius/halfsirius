@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cards - Half Sirius</title>
+  <meta name="description" content="">
+
+  <!-- Goole fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../assets/css/icons.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/img/icon.png" type="image/png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  
+  <!-- PrismJS theme -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-coy.min.css">
+  
+
+  <!-- JS -->
+  <script src="../assets/js/bootstrap.js" defer></script>
+<style>
+  img.sticky {
+  
+  position: sticky;
+  top: 0;
+}
+</style>
+</head>
+
+<body>
+  <header>
+  <a href="#main" class="visually-hidden-focusable">Skip to main content</a>
+
+
+
+
+  <nav class="navbar navbar-expand-md navbar-light py-3" aria-label="Main">
+    <div class="container">
+      <a href="../index.html" class="navbar-brand text-dark">
+        <img src="../assets/img/logo-boost.svg" alt="Boost Theme">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+
+      <!--
+      <div class="collapse navbar-collapse" id="navbar">
+        <div class="navbar-nav mt-3 mt-md-0 ms-auto">
+          <a class="nav-link px-md-3" href="../pages.html">Pages</a>
+          <a class="nav-link px-md-3" href="../style.html">Style</a>
+          <a class="nav-link px-md-3 active" href="../docs/intro.html">Docs</a>
+        </div>
+          <a class="btn btn-primary btn-sm rounded-pill mt-3 mt-md-0 ms-md-3" href="https://themes.getbootstrap.com/product/boost/">Buy now</a>
+      </div>
+
+      -->
+    </div>
+  </nav>
+
+
+  
+</header>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-9 col-xxl-8 order-lg-1">
+        <main id="main" class="mb-5">
+          <h1>Cards</h1>
+<div class="divider"></div>
+<p class="lead">Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.</p>
+
+<div class="row">
+  <div class="col-sm">
+    <div class="card mb-4">
+      <img class="card-img-top" src="../assets/img/cactus.jpg" alt="A succulent in a white ceramic pot against a blue wall">
+      <div class="card-body">
+        <h2 class="h4 card-title">Card default</h2>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="link-cta">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card card-hover mb-4">
+      <img class="card-img-top" src="../assets/img/beach.jpg" alt="Sand beach shoreline underneath the blue sky">
+      <div class="card-body">
+        <h2 class="h4 card-title">Card rising</h2>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. lorem</p>
+        <a href="#" class="link-cta">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>Add <code>.card-hover</code> to animate a card on hover.</p>
+
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-img-top<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>assets/img/cactus.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>h4 card-title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Card default<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Some quick example text to build on the card title and make up the bulk of the card's content.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>link-cta<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Go somewhere<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card card-hover<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-img-top<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>assets/img/beach.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>h4 card-title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Card rising<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Some quick example text to build on the card title and make up the bulk of the card's content. lorem<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>link-cta<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Go somewhere<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+
+<h2>Pricing cards</h2>
+<p>Show prices and options available using pricing cards.</p>
+
+<div class="row">
+  <div class="col-md">
+    <div class="card text-center mb-4">
+      <div class="card-header border-bottom py-4">
+        <h3 class="h4 fw-normal">Standard</h3>
+        <div class="d-flex justify-content-center">
+          <span class="fs-4 mt-1">$</span>
+          <span class="h1">39</span>
+        </div>
+        <span class="text-secondary">Single Site</span>
+      </div>
+      <div class="card-body">
+        <ul class="list-unstyled fw-light">
+          <li class="py-2">Use on one site</li>
+          <li class="py-2">Use for personal or a client</li>
+          <li class="py-2">Technical support</li>
+        </ul>
+        <a class="btn btn-outline-primary rounded-pill mb-3" href="#">Buy Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md">
+    <div class="card border border-4 border-primary text-center mb-4">
+      <div class="card-header border-bottom py-4">
+        <h3 class="h4 fw-normal">Multisite</h3>
+        <div class="d-flex justify-content-center">
+          <span class="fs-4 mt-1">$</span>
+          <span class="h1">149</span>
+        </div>
+        <span class="text-secondary">Unlimited Sites</span>
+      </div>
+      <div class="card-body">
+        <ul class="list-unstyled fw-light">
+          <li class="py-2">Use on unlimited sites</li>
+          <li class="py-2">Use for personal or a client</li>
+          <li class="py-2">Technical support</li>
+        </ul>
+        <a class="btn btn-primary rounded-pill mb-3" href="#">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card text-center mb-4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-header border-bottom py-4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>h4 fw-normal<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Standard<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>d-flex justify-content-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fs-4 mt-1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>$<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>h1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>39<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-secondary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Single Site<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>list-unstyled fw-light<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Use on one site<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Use for personal or a client<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Technical support<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn btn-outline-primary rounded-pill mb-3<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Buy Now<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card border border-4 border-primary text-center mb-4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-header border-bottom py-4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>h4 fw-normal<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Multisite<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>d-flex justify-content-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fs-4 mt-1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>$<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>h1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>149<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-secondary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Unlimited Sites<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>card-body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>list-unstyled fw-light<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Use on unlimited sites<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Use for personal or a client<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>py-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Technical support<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn btn-primary rounded-pill mb-3<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Buy Now<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+
+<p>
+  <a href="https://getbootstrap.com/docs/5.0/components/card/" target="_blank" rel="noopener">Bootstrap Documentation <i class="fas fa-external-link-alt fa-sm" aria-hidden="true"></i></a>
+</p>
+
+        </main>
+      </div>
+      <div class="col-lg-3">
+        <nav class="side-nav sticky-top mt-1" aria-label="Docs">
+          <dl>
+            <dt class="text-uppercase mb-2">Getting Started</dt>
+            <dd>
+              <a href="intro.html" >Introduction</a>
+            </dd>
+            <dd>
+              <a href="accessibility.html" >Accessibility</a>
+            </dd>
+            <dd>
+              <a href="changelog.html" >Changelog</a>
+            </dd>
+            <dd>
+              <a href="customization.html" >Customization</a>
+            </dd>
+            <dd>
+              <a href="updating.html" >Updating</a>
+            </dd>
+            <dt class="text-uppercase mt-4 mb-2">Components</dt>
+            <dd>
+              <a href="accordion.html" >Accordion</a>
+            </dd>
+            <dd>
+              <a href="alerts.html" >Alerts</a>
+            </dd>
+            <dd>
+              <a href="avatars.html" >Avatars</a>
+            </dd>
+            <dd>
+              <a href="backgrounds.html" >Backgrounds</a>
+            </dd>
+            <dd>
+              <a href="buttons.html" >Buttons</a>
+            </dd>
+            <dd>
+              <a href="cards.html" class=active>Cards</a>
+            </dd>
+            <dd>
+              <a href="devices.html" >Devices</a>
+            </dd>
+            <dd>
+              <a href="dropdowns.html" >Dropdowns</a>
+            </dd>
+            <dd>
+              <a href="forms.html" >Forms</a>
+            </dd>
+            <dd>
+              <a href="icons.html" >Icons</a>
+            </dd>
+            <dd>
+              <a href="modal.html" >Modal</a>
+            </dd>
+            <dd>
+              <a href="navbar.html" >Navbar</a>
+            </dd>
+            <dd>
+              <a href="pagination.html" >Pagination</a>
+            </dd>
+            <dd>
+              <a href="tables.html" >Tables</a>
+            </dd>
+          </dl>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
